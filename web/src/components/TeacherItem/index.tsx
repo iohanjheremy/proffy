@@ -7,7 +7,7 @@ function TeacherItem() {
         <article className="teacher-item">
             <header>
                 <img
-                    src="https://th.bing.com/th/id/OIP.fzdTVyFieOGIhP-4I9fxogHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7"
+                    src="https://th.bing.com/th/id/OIP.fzdTVyFieOGIhP-4I9fxogHaHa?w=171&h=180&c=7&r=0&o=5&pid=1.7"
                     alt="Gustavo Guanabara"
                 />
                 <div>

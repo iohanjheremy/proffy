@@ -52,7 +52,7 @@
     justify-content: space-between;
 }
 
-.teacher-item footter p strong {
+.teacher-item footer p strong {
     color: var(--color-primary);
     font-size: 1.6rem;
     display: block;
