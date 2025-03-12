@@ -9,4 +9,4 @@
 
 - Rotas para criar uma aula;
 - Rota para listar aulas;
-    - Filtrar por matéria, horário e dia da semana.
+    - Filtrar por matéria, horário e dia da semana;
