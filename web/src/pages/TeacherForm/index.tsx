@@ -6,7 +6,7 @@ import warningIcon from "../../assets/images/icons/warning.svg";
 import Textarea from "../../components/Textarea";
 import Select from "../../components/Select";
 import api from "../../services/api";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 function TeacherForm() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import PageHeader from "../../components/PageHeader";
-import TeacherItem, {Teacher} from "../../components/TeacherItem";
+import TeacherItem, { Teacher } from "../../components/TeacherItem";
 import Input from "../../components/Input";
 import Select from "../../components/Select";
 import api from '../../services/api';
@@ -28,6 +28,7 @@ function TeacherList() {
 
         setTeachers(response.data);
     }
+
 
     return (
         <div id="page-teacher-list" className="container">
@@ -86,7 +87,6 @@ function TeacherList() {
                 {teachers.map((teacher: Teacher) => {
                     return <TeacherItem key={teacher.id} teacher={teacher} />;
                 })}
-
             </main>
         </div>
     )
