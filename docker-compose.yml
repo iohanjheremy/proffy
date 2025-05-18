@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./server
+    ports:
+      - "3333:3333"
+    volumes:
+      - ./server:/app
+    environment:
+      - NODE_ENV=development
+    command: npm run start
+
+  frontend:
+    build:
+      context: ./web
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./web:/app
+    environment:
+      - NODE_ENV=development
+    command: npm start

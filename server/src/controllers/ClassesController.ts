@@ -11,7 +11,7 @@ interface ScheduleItem {
 
 export default class ClassesController {
 
-    async index(request: Request, response: Response) {
+     index = async (request: Request, response: Response) => {
         const filters = request.query;
 
         const subject = filters.subject as string;
@@ -44,7 +44,7 @@ export default class ClassesController {
     }
 
 
-    async create(request: Request, response: Response) {
+     create = async (request: Request, response: Response) => {
         const {
             name,
             avatar,
