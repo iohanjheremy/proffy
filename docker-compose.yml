@@ -8,6 +8,8 @@ services:
       - "3333:3333"
     volumes:
       - ./server:/app
+      - /app/node_modules
+    working_dir: /app
     environment:
       - NODE_ENV=development
     command: npm run start
@@ -19,6 +21,8 @@ services:
       - "3000:3000"
     volumes:
       - ./web:/app
+      - /app/node_modules
+    working_dir: /app
     environment:
       - NODE_ENV=development
     command: npm start

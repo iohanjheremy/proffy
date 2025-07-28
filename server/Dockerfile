@@ -1,23 +1,17 @@
-# Etapa de build
-FROM node:18 AS build
-
-WORKDIR /app
-
-COPY package*.json ./
-RUN npm install
-
-COPY . .
-
-# Build opcional (caso use TypeScript)
-RUN npm run start
-
-# Etapa final
+# Etapa única para desenvolvimento
 FROM node:18
 
 WORKDIR /app
 
-COPY --from=build /app /app
+COPY package*.json ./
+
+RUN npm install
+
+# Instala ts-node-dev globalmente
+RUN npm install -g ts-node-dev
+
+COPY . .
 
 EXPOSE 3333
 
-CMD ["npm", "run", "start"]
+CMD ["ts-node-dev", "--transpile-only", "--ignore-watch", "node_modules", "--respawn", "src/server.ts"]
