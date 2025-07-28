@@ -30,11 +30,11 @@ Desenvolvido com foco em aprendizado durante a **Next Level Week #2** da [Rocket
 - ESLint + TypeScript + Hot Reload
 
 ---
+```
 
 ## 📦 Estrutura do Projeto
 
-```
-
+```bash
 proffy/
 ├── server/           # Backend Node + Express + TypeScript
 │   ├── src/          # Código-fonte (controllers, routes, DB)
@@ -48,7 +48,7 @@ proffy/
 ├── docker-compose.yml
 └── README.md
 
-````
+```
 
 ---
 
