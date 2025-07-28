@@ -130,11 +130,6 @@ DATABASE_URL=./src/database/database.sqlite
 ---
 
 
-### Web
-
-![Web](https://raw.githubusercontent.com/iohanjheremy/proffy/main/.github/proffy-web.png)
-
----
 
 ## 🧠 Créditos
 
