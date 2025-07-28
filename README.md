@@ -1,7 +1,3 @@
-Claro! Com base no seu projeto atualizado com suporte a Docker, React (`react-scripts`), Node.js (TypeScript), e Docker Compose para o ambiente de desenvolvimento, aqui está o novo `README.md` completo e profissional:
-
----
-
 ```markdown
 # 🎓 Proffy – Plataforma de Aulas Online
 
