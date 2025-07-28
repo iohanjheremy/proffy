@@ -1,4 +1,4 @@
-```markdown
+
 # 🎓 Proffy – Plataforma de Aulas Online
 
 O **Proffy** é uma aplicação fullstack construída para conectar alunos e professores de forma simples, com funcionalidades de cadastro, busca e agendamento de aulas.
