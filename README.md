@@ -14,7 +14,6 @@ Desenvolvido com foco em aprendizado durante a **Next Level Week #2** da [Rocket
 - TypeScript
 - Express
 - SQLite + Knex
-- ts-node-dev
 
 ### Frontend:
 - React.js (Create React App)
