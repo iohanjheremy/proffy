@@ -26,7 +26,6 @@ Desenvolvido com foco em aprendizado durante a **Next Level Week #2** da [Rocket
 - ESLint + TypeScript + Hot Reload
 
 ---
-```
 
 ## 📦 Estrutura do Projeto
 
